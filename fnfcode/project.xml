@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project file="project.xml">
+    <!-- Game Name and Info -->
+    <name>FakeFNF</name>
+    <tags>game, rhythm</tags>
+    <description>Fake Friday Night Funkin' Game</description>
+
+    <!-- Source folder where your source files are located -->
+    <source path="source" />
+    
+    <!-- Assets folder containing data, songs, images, and fonts -->
+    <assets path="assets" />
+
+    <!-- Main entry point for your game -->
+    <main>Main</main>
+
+    <!-- Libraries -->
+    <haxelib name="flixel" />
+    <haxelib name="openfl" />
+    <haxelib name="lime" />
+    
+    <!-- Builds -->
+    <build target="html5">
+        <!-- No need for release.hxml -->
+    </build>
+
+    <build target="windows">
+        <!-- No need for release.hxml -->
+    </build>
+
+    <!-- Paths for specific folders inside assets -->
+    <assets path="assets/data" />
+    <assets path="assets/songs" />
+    <assets path="assets/images" />
+    <assets path="assets/fonts" /> <!-- Added fonts folder -->
+</project>
